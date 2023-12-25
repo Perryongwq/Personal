@@ -1,0 +1,33 @@
+--------Header section --------------
+# Menus
+Projects
+Programming Language
+About me
+
+--------banner section--------------
+# heading
+
+
+--------Projects--------------
+-> Project 1
+
+
+-> Project 2
+# heading
+
+
+-> Project 3
+# heading
+
+-> Project 4
+
+--------Technologies--------------
+-> Lists of items
+
+
+--------Additional technologies and skills--------------
+-> Lists of items
+
+
+--------About me--------------
+
