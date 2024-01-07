@@ -8,6 +8,7 @@ import Project4 from "./assets/project4.png";
 import lk from "./assets/linkedin.svg";
 import { useEffect, useState } from 'react';
 import arrowdown from "./assets/arrow-down.svg";
+import gitsvg from "./assets/github-mark.svg";
 
 function App() {
   const [scrolling, setScrolling] = useState(false);
@@ -65,7 +66,18 @@ function App() {
               In addition, I am also pursuing a part-time Master's Degree in Artificial Intelligence at Nanyang Technological University(NTU). 
               My journey in the realm of AI and machine learning blends academic rigor with practical experimentation, 
               focusing on the intersection of advanced AI methodologies and real-world applications. </p>
+
+              <div className='flex gap-4 mt-5'>              
               <button className='px-8 shadow-gray-500 shodow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>Download Resume</button>
+              <a href="https://www.linkedin.com/in/wen-qing-ong/" target="_blank" rel="noopener noreferrer" className='flex items-center justify-center px-8 py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>
+              <img src={lk} className="w-5 h-5 mr-2"/>
+              LinkedIn</a>
+              <a href="https://github.com/Perryongwq" target="_blank" rel="noopener noreferrer" className='flex items-center justify-center px-8 py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700'>
+              <img src={gitsvg} className="w-5 h-5 mr-2"/>
+              Github</a>
+
+              </div>
+              
             </div>
           </div>
           <div className='relative'>
@@ -208,7 +220,8 @@ function App() {
         <div>
           <ul className='flex gap-6 '>
             <li>
-              <a><img src={lk} className='w-5'/></a>
+              <a href='https://www.linkedin.com/in/wen-qing-ong/' target="_blank" rel="noopener noreferrer"> 
+                <img src={lk} className='w-5'/></a>
             </li>
             
           </ul>
