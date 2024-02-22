@@ -107,11 +107,11 @@ function App() {
             <div className='border border-gray-500 rounded-md p-5 flex flex-col'>
             <img src ={Project2} className='w-full h-auto mb-4'/>
             <div className='flex flex-col space-y-2'>
-              <h3 className='text-2xl-semibold mb-6'>Computer Vision: Visual Relationship Dectection Openimages 2019 challenge</h3>
-              <p className='text-gray-400 text-sm'>Explores the implementation and evaluation of a two-stage transformer-based model for Visual Relationship Detection (VRD) using the Open Images dataset</p>
+                <h3 className='text-2xl-semibold mb-6'>Neuro Evoluation and Fuzzy Intelligence: Time Series Stock Prediction </h3>
+                <p className='text-gray-400 text-sm'> Use of Hybrid AI Model-Dynamic Evolving Neural Fuzzy Inference System (DENFIS) and compare with Portfoilo Muliplicative Returns of Benchmark Model (LSTM & ANFIS)</p>
             </div>
-              <div>
-                <button className='w-full text-sm py-3 mt-12 border rounded-full hover:border-blue-500 hover:text-blue-500 '>Checkout Github</button>
+              <div >
+              <a href="https://github.com/Perryongwq/Neuro-Evoluation-and-Fuzzy-Intelligence-Time-Series-Stock-Prediction" target="_blank" rel="noopener noreferrer" className='w-full text-sm py-3 mt-5 border rounded-full hover:border-blue-500 hover:text-blue-500 block text-center'>Checkout Github</a>
               </div>
             </div>
           </div>
@@ -123,17 +123,18 @@ function App() {
                 <p className='text-gray-400 text-sm '> Examines the replacement of full softmax attention with linear attention in NLP tasks, particularly on text classification of Amazon reviews.</p>
               </div>
               <div >
-                <button className='w-full text-sm py-3 mt-14 border rounded-full hover:border-blue-500 hover:text-blue-500'>Checkout Github</button>
+              <a href="https://github.com/Perryongwq/NLP-Study-on-Linear-Attention-Mechanism" target="_blank" rel="noopener noreferrer" className='w-full text-sm py-3 mt-5 border rounded-full hover:border-blue-500 hover:text-blue-500 block text-center'>Checkout Github</a>
               </div>
             </div>
+
             <div className='border border-gray-500 rounded-md p-5 flex flex-col'>
             <img src ={Project4} className='w-full h-auto mb-4'/>
             <div className='flex flex-col space-y-2'>
-                <h3 className='text-2xl-semibold mb-6'>Neuro Evoluation and Fuzzy Intelligence: Time Series Stock Prediction </h3>
-                <p className='text-gray-400 text-sm'> Use of Hybrid AI Model-Dynamic Evolving Neural Fuzzy Inference System (DENFIS) and compare with Portfoilo Muliplicative Returns of Benchmark Model (LSTM & ANFIS)</p>
+              <h3 className='text-2xl-semibold mb-6'>Modern Image Gallery </h3>
+              <p className='text-gray-400 text-sm'>The website presents a modern image gallery utilizing Vite and React, showcasing interactive and structured image displays while highlighting efficient web development techniques.</p>
             </div>
-              <div >
-                <button className='w-full text-sm py-3 mt-5 border rounded-full hover:border-blue-500 hover:text-blue-500'>Checkout Github</button>
+              <div>
+              <a href="https://image-gallery-git-main-perryongwq.vercel.app/" target="_blank" rel="noopener noreferrer" className='w-full text-sm py-3 mt-5 border rounded-full hover:border-blue-500 hover:text-blue-500 block text-center'>Checkout Website</a>
               </div>
             </div>
           </div>
