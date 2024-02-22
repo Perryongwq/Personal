@@ -9,7 +9,7 @@ import lk from "./assets/linkedin.svg";
 import { useEffect, useState } from 'react';
 import arrowdown from "./assets/arrow-down.svg";
 import gitsvg from "./assets/github-mark.svg";
-import resume from "./assets/Perry_Resume.pdf";
+import resume from "../public/Perry_Resume.pdf";
 
 function App() {
   const [scrolling, setScrolling] = useState(false);
